@@ -22,15 +22,15 @@ public class testSelectionSort {
         arr[1] = 9;
         arr[2] = 7;
         arr[3] = 10;
-        arr[4] = 2;
-        
+        arr[4] = 1;
+
         int[] Sortedarr = new int[5];
-        Sortedarr[0] = 2;
+        Sortedarr[0] = 1;
         Sortedarr[1] = 7;
         Sortedarr[2] = 8;
         Sortedarr[3] = 9;
         Sortedarr[4] = 10;
-        
+
         SelectionSort test = new SelectionSort();
         arr = test.basicSelectionSort(arr);
         int sum = 0;
@@ -40,8 +40,8 @@ public class testSelectionSort {
         	}
         }
         assertEquals(0, sum);
-        
-        
+
+
 	}
 
 	private void testNegative() {
@@ -51,14 +51,14 @@ public class testSelectionSort {
         arr[2] = -7;
         arr[3] = -10;
         arr[4] = -2;
-        
+
         int[] Sortedarr = new int[5];
         Sortedarr[0] = -10;
         Sortedarr[1] = -9;
         Sortedarr[2] = -8;
         Sortedarr[3] = -7;
         Sortedarr[4] = -2;
-        
+
         SelectionSort test = new SelectionSort();
         arr = test.basicSelectionSort(arr);
         int sum = 0;
@@ -77,14 +77,14 @@ public class testSelectionSort {
         arr[2] = 0;
         arr[3] = 10;
         arr[4] = -2;
-        
+
         int[] Sortedarr = new int[5];
         Sortedarr[0] = -2;
         Sortedarr[1] = 0;
         Sortedarr[2] = 8;
         Sortedarr[3] = 9;
         Sortedarr[4] = 10;
-        
+
         SelectionSort test = new SelectionSort();
         arr = test.basicSelectionSort(arr);
         int sum = 0;
@@ -94,7 +94,7 @@ public class testSelectionSort {
         	}
         }
         assertEquals(0, sum);
-		
+
 	}
 
 	private void testDuplicates() {
@@ -104,14 +104,14 @@ public class testSelectionSort {
         arr[2] = -2;
         arr[3] = 10;
         arr[4] = -2;
-        
+
         int[] Sortedarr = new int[5];
         Sortedarr[0] = -2;
         Sortedarr[1] = -2;
         Sortedarr[2] = 8;
         Sortedarr[3] = 10;
         Sortedarr[4] = 10;
-        
+
         SelectionSort test = new SelectionSort();
         arr = test.basicSelectionSort(arr);
         int sum = 0;
