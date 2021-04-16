@@ -22,7 +22,11 @@ public class testSelectionSort {
         arr[1] = 9;
         arr[2] = 7;
         arr[3] = 10;
+<<<<<<< HEAD
         arr[4] = 1;
+=======
+        arr[4] = 2;
+>>>>>>> mixDup
 
         int[] Sortedarr = new int[5];
         Sortedarr[0] = 1;
@@ -76,10 +80,14 @@ public class testSelectionSort {
         arr[1] = 9;
         arr[2] = 0;
         arr[3] = 10;
+<<<<<<< HEAD
         arr[4] = -2;
+=======
+        arr[4] = -1;
+>>>>>>> mixDup
 
         int[] Sortedarr = new int[5];
-        Sortedarr[0] = -2;
+        Sortedarr[0] = -1;
         Sortedarr[1] = 0;
         Sortedarr[2] = 8;
         Sortedarr[3] = 9;
@@ -101,13 +109,17 @@ public class testSelectionSort {
 		int[] arr = new int[5];
 		arr[0] = 8;
         arr[1] = 10;
-        arr[2] = -2;
+        arr[2] = -1;
         arr[3] = 10;
+<<<<<<< HEAD
         arr[4] = -2;
+=======
+        arr[4] = -1;
+>>>>>>> mixDup
 
         int[] Sortedarr = new int[5];
-        Sortedarr[0] = -2;
-        Sortedarr[1] = -2;
+        Sortedarr[0] = -1;
+        Sortedarr[1] = -1;
         Sortedarr[2] = 8;
         Sortedarr[3] = 10;
         Sortedarr[4] = 10;
